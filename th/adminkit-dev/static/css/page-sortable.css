@@ -1,0 +1,80 @@
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem;
+  background: linear-gradient(to right bottom, #e0f2ff, #ede9fe);
+  border-radius: 8px;
+}
+
+select {
+  padding: 0.5rem 2rem 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  appearance: none;
+  background: #fff url('data:image/svg+xml;base64,...') no-repeat right 0.5rem center;
+  background-size: 1rem;
+}
+
+#adminProductList {
+  list-style: none;
+  max-height: 500px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+#adminProductList li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: white;
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  margin-bottom: 0.75rem;
+  cursor: grab;
+  transition: all 0.2s ease;
+}
+
+#adminProductList li:hover {
+  border-color: #90cdf4;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(0, 0, 255, 0.1);
+}
+
+#adminProductList img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button#saveOrderBtn {
+  background: linear-gradient(to right, #2563eb, #6366f1);
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+button#saveOrderBtn:hover {
+  background: linear-gradient(to right, #1e40af, #4f46e5);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

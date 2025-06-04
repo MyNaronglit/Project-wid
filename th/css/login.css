@@ -1,0 +1,135 @@
+.main-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.custom-card {
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+}
+@media (max-height: 700px) {
+    .main-info {
+        height: auto; 
+        padding: 50px 0;
+    }
+}
+.custom-login-title {
+    color: #333;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+.custom-form-label {
+    font-weight: 500;
+    color: #555;
+}
+.custom-btn-primary {
+    background: linear-gradient(to right, #4a90e2, #63b3ed);
+    border: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.custom-btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, #357ebd, #56a0cf);
+}
+.custom-btn-signup {
+    border: 2px solid #63b3ed;
+    color: #63b3ed;
+    transition: background-color 0.3s, color 0.3s;
+}
+.custom-btn-signup:hover {
+    background-color: #63b3ed;
+    color: white;
+}
+.custom-forgot-password {
+    color: #4a90e2;
+    text-decoration: none;
+}
+.custom-footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}
+.custom-footer a {
+    color: white;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  .custom-card {
+    padding: 30px;
+}
+.custom-form-label {
+    font-weight: 500;
+    color: #555;
+}
+.custom-btn-primary {
+    background: linear-gradient(to right, #4a90e2, #63b3ed);
+    border: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.custom-btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, #357ebd, #56a0cf);
+}
+.custom-select {
+    border-radius: 50%; /* ทำให้เป็นวงกลม */
+    border: 1px solid #ced4da;
+    padding: 0;
+    font-size: 0.7rem; /* ปรับขนาดตัวอักษรให้เล็กลง */
+    line-height: 1;
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+    appearance: none; /* ลบสไตล์เริ่มต้นของ select */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    overflow: hidden; /* ซ่อนส่วนเกิน */
+}
